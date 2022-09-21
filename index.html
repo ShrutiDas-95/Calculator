@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="images/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Orbitron&display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <div class="table">
+
+      <table class="tableCal">
+        <tr>
+          <td colspan="3"><input class="display-box" id="result" type="text" name="" value=""></td>
+          <td><input type="button" class="delete" name="" value="DEL"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="cal" name="+" value="+"></td>
+          <td><input type="button" class="cal" name="/" value="/"></td>
+          <td><input type="button" class="cal" name="*" value="*"></td>
+          <td><input type="button" class="cal" name="-" value="-"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="cal" name="7" value="7"></td>
+          <td><input type="button" class="cal" name="8" value="8"></td>
+          <td><input type="button" class="cal" name="9" value="9"></td>
+          <td rowspan="2"><input type="button" name="AC" id="clear-screen" value="AC"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="cal" name="4" value="4"></td>
+          <td><input type="button" class="cal" name="5" value="5"></td>
+          <td><input type="button" class="cal" name="6" value="6"></td>
+
+        </tr>
+        <tr>
+          <td><input type="button" class="cal" name="1" value="1"></td>
+          <td><input type="button" class="cal" name="2" value="2"></td>
+          <td><input type="button" class="cal" name="3" value="3"></td>
+          <td rowspan="2"><input id="output-result"  type="button" name="=" value="="></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" class="cal" name="0" value="0"></td>
+          <td><input type="button" class="cal" name="." value="."></td>
+        </tr>
+      </table>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
